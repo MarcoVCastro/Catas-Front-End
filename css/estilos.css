@@ -1,0 +1,140 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+p.izquierdo{
+    text-align: left;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 25px;
+    color: #ff44d0;
+    text-shadow: 1px 1px 2px #333333;
+}
+h2{
+    text-align: center;
+    font-size: 20px;
+    color: #ff44d0;
+    text-shadow: 1px 1px 2px #333333;
+}
+table{
+    width: 400px;
+
+}
+
+body{
+    background-color: pink;
+    background-image: url("/img/Pink\ Walpaper.png");
+    border: #6f00ff solid;
+    margin: 0%;
+    padding: 5px;
+    border-radius: 5px;
+    border-style: double;
+    outline: #6f00ff solid;
+}
+
+p{
+    color: #6f00ff;
+}
+.boton{
+    background-color: #ff44d0;
+    width: 200px;
+    height: 50px;
+    color: #ff77dd;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px #333333 ;
+}
+tr{
+    width: auto;
+    text-align: center;
+    margin: 30px 10px;
+    
+    color: #6f00ff;
+}
+.centrado{
+    text-align: center;
+} 
+    th{
+        text-align: center;
+        margin: 30px 10px;
+    }
+
+td{
+    margin: 5px;
+    padding: 5px;
+    width: auto;
+    text-align: center;
+    margin: 30px 10px;
+}
+.section{
+    height: 400px;
+}
+
+div{
+ padding: 5px;
+ margin: 5px;
+ width:auto;
+ background-color: rgba(255, 192, 203, 0.774);
+ border-radius: 5px;
+ border-style: inset;
+ border-width: 5px;
+ text-align: center;
+ 
+}
+
+th{
+    color: purple;
+    font-weight: bolder;
+    width: auto;
+    margin: 30px 10px;
+}
+
+dl, dt{
+    color: #6f00ff;
+}
+
+.fondoColor{
+    background-color: #0f6666;
+}
+
+.fondoOpacidad{
+    background-color: #f887fb83;
+    opacity: 0.6;
+}
+
+.fondoImagen{
+    background-image: url("../images/fondo1.jpg");
+}
+
+.fondoRepetidoX{
+    background-image: url("../images/fondo2.jpg");
+    background-repeat: repeat-x;
+}
+
+.fondoRepetidoY{
+    background-image: url("../images/fondo1.jpg");
+    background-repeat: repeat-y;
+}
+
+.fondoNoRepetido{
+    background-image: url("../images/fondo2.jpg");
+    background-repeat: no-repeat;
+}
+
+.fondoPosicion{
+    background-image: url("../images/fondo1.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.fondoCompleto{
+    background-image: url("../images/fondo2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

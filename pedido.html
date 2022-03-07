@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelero</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+</head>
+
+<body>
+    <h1>Datos de contacto.</h1>
+    <div>
+        <form action="pedido.js"></form>
+
+        <label for="Nombre">Por favor ingresa tu nombre</label>
+        <br>
+        <form name="formulario">
+        
+        <input type="text"id="Nombre" placeholder="Nombre">
+        <br><br>
+        
+        <label for="Telefono">Por favor ingresa tu teléfono</label>
+        <br>
+        <input type="number" id="Telefono" placeholder="Teléfono">
+        <br><br>
+        
+        <label for="email">Por favor ingresa tu correo electrónico</label>
+        <br>
+        <input type="email" id="Email" placeholder="Email">
+        <br><br>
+    </div>
+    <div>
+        <p>¿Servicio a domicilio o recoger en tienda?</p>
+        <!-- <h1>¿Servicio a domicilio o recoger en tienda?</h1> -->
+
+        <table>
+            <tr>
+                <td> <!-- Al usar un botón Radio y que solo se pueda seleccionar una opción, todos deben tener el mismo name -->
+                    <th><input type="radio" id="domicilio" name="domiciliotienda" value="domicilio">
+                        <label for="domicilio">Domicilio</label><br>
+                    </th>
+                    <th><input type="radio" id="tienda" name="domiciliotienda" value="tienda">
+                        <label for="tienda">Tienda</label><br>
+                    </th>
+                </td>
+            </tr>
+        </table>
+    <br>
+    </div>
+    <div>
+    <!-- Menu desplegable para seleccionar -->
+        <select name="sabores" id="sabores">
+            <option value="seleccionDeSabor">Seleccione el tipo de pastel</option>
+            <option value="Uno">Solo un sabor</option>
+            <option value="Dos">Dos sabores</option>
+        </select>    
+    
+    
+        <br><br>
+
+        <select name="sabor1" id="sabor1">
+        <option value="seleccionSabor1">Seleccione el primer sabor</option>
+        <option value="Uno">Fresas con crema</option>
+        <option value="Dos">Chcolate</option>
+        <option value="Uno">Vainilla</option>
+        <option value="Dos">Cajeta</option>
+        <option value="Dos">Zanahoria</option>
+        <option value="Dos">Ciruela</option>
+
+        </select>
+
+        <br><br>
+        <select name="sabor2" id="sabor2">
+        <option value="seleccionDeSabor2">Seleccione el segundo sabor</option>
+        <option value="Uno">Fresas con crema</option>
+        <option value="Dos">Chcolate</option>
+        <option value="Uno">Vainilla</option>
+        <option value="Dos">Cajeta</option>
+        <option value="Dos">Zanahoria</option>
+        <option value="Dos">Ciruela</option>
+        </select>
+        <br><br>
+    </div>
+<div>
+    <p>Seleccione los adornos del pastel</p>
+    <!-- SELECCIONAR LOS ADORNOS DEL PASTEL-->
+ 
+    <!-- Princesas-->   
+    <table>
+        <tr>
+            <th>
+                <input type="checkbox" id="princesas" name="princesas" value="Princesas"><br/>
+                <label for="princesas">Princesas</label><br>
+            
+            </th>
+        </tr>    
+        <tr>
+            <td> 
+                <input type="radio" id="princesas" name="princesas" value="princesas">
+                    <label for="rapunzel">Rapunzel</label><br>
+            </td>    
+            <td>
+                <input type="radio" id="blanca" name="princesas" value="blanca">
+                <label for="blanca">Blanca Nieves</label><br>
+            </td>
+            <td>
+                <input type="radio" id="cenicienta" name="princesas" value="cenicienta">
+                <label for="cenicienta">Cenicienta</label><br>
+            </td>
+            <td> 
+                <input type="radio" id="sirenita" name="princesas" value="sirenita">
+                    <label for="sirenita">La Sirenita</label><br>
+            </td>    
+            <td>
+                <input type="radio" id="elsa" name="princesas" value="elsa">
+                <label for="elsa">Elsa</label><br>
+            </td>
+            <td>
+                <input type="radio" id="mulan" name="princesas" value="mulan">
+                <label for="mulan">Mulán</label><br>
+            </td>
+        </tr>
+
+    </table>
+    <hr>
+ <!-- Toy Story-->
+    <table>
+        <tr>
+            <th>
+                <input type="checkbox" id="toystory" name="toystory" value="toystory"><br>
+                <label for="toystory">Toy Story</label><br>
+            
+            </th>
+        </tr>    
+        <tr>
+            <td> 
+                <input type="radio" id="woody" name="toystory" value="woody">
+                    <label for="woody">Woody</label><br>
+            </td>    
+            <td>
+                <input type="radio" id="buzz" name="toystory" value="buzz">
+                <label for="buzz">Buzz Lightyear</label><br>
+            </td>
+            <td>
+                <input type="radio" id="caradepapa" name="toystory" value="caradepapa">
+                <label for="caradepapa">Señor Cara de Papa</label><br>
+            </td>
+            <td>
+                <input type="radio" id="jessie" name="toystory" value="jessie">
+                <label for="jessie">Jessie</label><br>
+            </td>
+            <td> 
+                <input type="radio" id="forky" name="toystory" value="forky">
+                    <label for="forky">Forky</label><br>
+            </td>    
+           
+            <td>
+                <input type="radio" id="rex" name="toystory" value="rex">
+                <label for="rex">Rex</label><br>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    
+ <!-- Super Héroes    -->
+    <table>
+        <tr>
+            <th>
+                <input type="checkbox" id="super" name="super" value="super"><br>
+                <label for="super">Super Héroes</label><br>
+            
+            </th>
+        </tr>    
+        <tr>
+            <td> 
+                <input type="radio" id="spiderman" name="superheroes" value="spiderman">
+                    <label for="spiderman">Spiderman</label><br>
+            </td>    
+            <td> 
+                <input type="radio" id="batman" name="superheroes" value="batman">
+                    <label for="batman">Batman</label><br>
+            </td>   
+            <td> 
+                <input type="radio" id="superman" name="superheroes" value="superman">
+                    <label for="superman">Superman</label><br>
+            </td>   
+            <td> 
+                <input type="radio" id="ironman" name="superheroes" value="ironman">
+                    <label for="ironman">Ironman</label><br>
+            </td>   
+            <td> 
+                <input type="radio" id="hulk" name="superheroes" value="hulk">
+                    <label for="hulk">Hulk</label><br>
+            </td>      
+            <td> 
+                <input type="radio" id="capitanamerica" name="superheroes" value="capitanamerica">
+                    <label for="capitanamerica">Capitan America</label><br>
+            </td>  
+        </tr>
+    </table>
+    <hr>
+</div>
+<div>
+    <p>Haga una breve descripción de como desea el pastel.</p>
+    <textarea name="descipcion" id="descripcion" cols="60" rows="5"></textarea>
+    <!-- <input type="text" id="descripcion" name="descripcion" value="Descripción del pastel"> -->
+    <label for="descripcion"></label><br>
+    <br>
+    <a href="/pastelero.html">
+        <input type="button" value="Confirmar Pedido" class="boton">
+        <!-- <input type="reset">
+        <input type="submit"> -->
+    </a>
+</form>
+</div>    
+
+</body>
+</html>
